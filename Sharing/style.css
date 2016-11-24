@@ -1,0 +1,45 @@
+html {
+  font-family: sans-serif;
+}
+
+.social-share-head {
+  clear: left;
+  margin: 8px 2% 10px 2%;
+  margin: 0.5rem 2% 0.625rem 2%;
+}
+
+.social-share-head p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.white-icon-stroke {
+  stroke: #353d30;
+}
+
+.social-share-head a:hover .white-icon {
+  fill: #7eb21b;
+}
+
+.social-share-head a:hover .white-icon-stroke {
+  stroke: #7eb21b;
+}
+
+.social-share-head ul {
+  display: inline-block;
+  padding-left: 0px;
+  height: auto;
+  margin-top: 5px;
+}
+
+.social-share-head li {
+  margin: 0px 5px 0px 5px;
+  display: inline-block;
+}
+
+.social-share-head svg {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,48 @@
+.social-share-head {
+  clear: left;
+  @include rem('margin', 8px 2% 10px 2%);
+
+  @include breakpoint(68.75em) {
+    @include rem('margin', 8px 2% 0 2%);
+    float:right;
+    clear: none;
+  }
+
+  p {
+    display:inline-block;
+    font-size:16px;
+    font-weight:normal;
+    margin: 0;
+  }
+
+  a {
+    .white-icon {
+        fill: $aurecon-grey;
+    }
+        .white-icon-stroke {
+          stroke: $aurecon-grey;
+        }
+    &:hover {
+        .white-icon {
+          fill: $aurecon-green;
+        }
+        .white-icon-stroke {
+          stroke: $aurecon-green;
+        }
+      }
+  }
+  ul {
+    display:inline-block;
+    padding-left:0px;
+    height:auto;
+    margin-top: 5px;
+  }
+  li {
+    margin: 0px 5px 0px 5px;;
+    display:inline-block;
+  }
+  svg {
+    width:30px;
+    height:30px;
+  }
+}
